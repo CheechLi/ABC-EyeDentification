@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Meet the Team")
+st.markdown("<h1 style='text-align: center;'>The Team</h1>", unsafe_allow_html=True)
 
 st.markdown("""
 We are a student team from the **MIT Beaver Works Summer Institute (BWSI) Medlytics program**.  

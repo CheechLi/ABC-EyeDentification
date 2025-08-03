@@ -22,40 +22,19 @@ st.set_page_config(
 # -------------------------------
 st.markdown("<h1 style='text-align: center;'>Eye Disease Classifier</h1>", unsafe_allow_html=True)
 
-st.markdown(
-    "<h4 style='text-align: center;'>Welcome to upload an eye image (JPEG or PNG)!</h4>",
-    unsafe_allow_html=True
-)
-
-with st.sidebar:
-    st.title("About")
-    st.markdown(
-        """
-        This tool uses a deep learning model to classify eye images into:
-        - Cataract  
-        - Diabetic Retinopathy  
-        - Glaucoma  
-        - Normal  
-
-        """
-    )
-
 st.markdown("---")
-st.markdown("### Our Goal")
 
-st.markdown("""
-we hope more people passionate about medical AI will join us! 
-All submitted images will be collected and used to improve our models through continuous training and validation.  
-Our goal is to create  a smart classifier, and a bridges between deep learning and real-world healthcare impact.
-""")
+st.markdown("### Instructions:")
 
+st.markdown("Select a model from the dropdown below, then upload an eye image to get predictions on its condition. Your eye will be classified into one of the following categories:"
+    "\n- Cataract\n- Diabetic Retinopathy\n- Glaucoma\n- Normal")
 
 # -------------------------------
 # MODEL SELECTION + LOADING
 # -------------------------------
 model_choices = {
     "DenseNet201":"DenseNet201.keras",
-    "InceptionV3": "InceptionV3 Model2.keras",
+    "InceptionV3": "InceptionV3.keras",
 }
 
 st.markdown("### Choose a Model")
@@ -68,7 +47,7 @@ def load_model(model_path):
         model = tf.keras.models.load_model(model_path, compile=False)
         return model
     except Exception as e:
-        st.error(f"❌ Model load failed: {e}")
+        st.error(f"Model load failed: {e}")
         return None
 
 model_path = os.path.join("models", model_file)
