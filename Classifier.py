@@ -35,7 +35,6 @@ st.markdown("Select a model from the dropdown below, then upload an eye image to
 model_choices = {
     "DenseNet201":"DenseNet201.keras",
     "InceptionV3": "InceptionV3.keras",
-    "ResNet50": "ResNet50.keras",
 }
 
 st.markdown("### Choose a Model")
