@@ -11,7 +11,7 @@ from datetime import datetime
 # SETUP
 # -------------------------------
 st.set_page_config(
-    page_title="Ocular Disease Classifier",
+    page_title="ABC Eye-Dentification",
     page_icon="🧿",
     layout="centered",
     initial_sidebar_state="expanded"
