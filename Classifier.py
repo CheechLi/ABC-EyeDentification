@@ -11,7 +11,7 @@ from datetime import datetime
 # SETUP
 # -------------------------------
 st.set_page_config(
-    page_title="Eye Disease Classifier",
+    page_title="Ocular Disease Classifier",
     page_icon="🧿",
     layout="centered",
     initial_sidebar_state="expanded"
@@ -20,7 +20,7 @@ st.set_page_config(
 # -------------------------------
 # UI HEADER & SIDEBAR
 # -------------------------------
-st.markdown("<h1 style='text-align: center;'>Eye Disease Classifier</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>Ocular Disease Classifier</h1>", unsafe_allow_html=True)
 
 st.markdown("---")
 
@@ -35,6 +35,7 @@ st.markdown("Select a model from the dropdown below, then upload an eye image to
 model_choices = {
     "DenseNet201":"DenseNet201.keras",
     "InceptionV3": "InceptionV3.keras",
+    "ResNet50": "ResNet50.keras",
 }
 
 st.markdown("### Choose a Model")
