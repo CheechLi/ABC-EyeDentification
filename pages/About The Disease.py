@@ -1,5 +1,11 @@
 import streamlit as st
 
+st.set_page_config(
+    page_icon="🧿",
+    layout="centered",
+    initial_sidebar_state="expanded"
+)
+
 st.markdown("<h1 style='text-align: center;'>About Ocular Disease</h1>", unsafe_allow_html=True)
 
 st.image("images/Four Basic Disease.png", width=700)
