@@ -20,7 +20,8 @@ st.set_page_config(
 # -------------------------------
 # UI HEADER & SIDEBAR
 # -------------------------------
-st.markdown("<h1 style='text-align: center;'>Ocular Disease Classifier</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>ABC Eye-Dentification</h1>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center;'>Ocular Disease Classifier</h2>", unsafe_allow_html=True)
 
 st.markdown("---")
 
