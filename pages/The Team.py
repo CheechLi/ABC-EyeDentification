@@ -23,15 +23,15 @@ We invite volunteers to upload ocular images to help us diversify our dataset an
 -----
 
 ### Team Members
-- **Aaditya Penmetsa** –[Machine Learning Engineer] 
+- **Aaditya Penmetsa** –[Machine Learning Engineer & Data Scientist]
             
 Rising senior from Irvington High School in California. Interested in biomedical sciences with a strong passion for ophthalmology and AI in healthcare.
 
-- **Brigitta Yu** –[Web Designer] 
+- **Chenlu (Brigitta) Yu** –[Web Designer & Machine Learning Engineer]
             
 I’m passionate about biomedical and applied math. My work explores intersections between eye care, reproductive health, and kinesiology—using code and research to solve real-world problems.
 
-- **Yingqi (Cheech) Li** – [Product Manager & Machine Learning Engineer] 
+- **Yingqi (Cheech) Li** – [Product Manager & Lead Machine Learning Engineer]
             
 Rising senior at Fort Lee High School in New Jersey. Cheech has served as his school's class president for the past three academic years. He is interested in the application and ethics of AI/ML in healthcare.
 
@@ -56,7 +56,7 @@ https://github.com/CheechLi/Medlytics-Capstone-Website.git
 
 Aaditya Penmetsa - aadipenmetsa@gmail.com
 
-Bridgitta Yu - chenluyu06@gmail.com
+Chenlu (Brigitta) Yu - chenluyu06@gmail.com
 
 Yingqi (Cheech) Li - yingqili280@gmail.com
 
